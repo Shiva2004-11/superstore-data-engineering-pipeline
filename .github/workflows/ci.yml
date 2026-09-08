@@ -31,5 +31,7 @@ jobs:
           pip install pytest pytest-mock
 
       - name: Run Unit Tests
+        env:
+          PYTHONPATH: .
         run: |
           pytest -v tests/
