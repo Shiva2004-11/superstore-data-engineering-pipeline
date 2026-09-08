@@ -1,0 +1,12 @@
+pandas
+flask
+requests
+kafka-python-ng
+apache-airflow
+sqlalchemy
+great-expectations
+psycopg2-binary
+streamlit
+plotly
+pytest
+pytest-mock

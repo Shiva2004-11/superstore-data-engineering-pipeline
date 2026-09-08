@@ -1,0 +1,6 @@
+pandas
+requests
+kafka-python-ng
+sqlalchemy
+great-expectations
+psycopg2-binary

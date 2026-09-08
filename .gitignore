@@ -1,0 +1,34 @@
+# Local environments and virtual envs
+venv/
+.venv/
+airflow_env/
+airflow3_env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+logs/
+
+# Secrets and environment configs
+.env
+
+# Databases
+*.db
+airflow.db
+airflow_test.db
+target.db
+test1.db
+test2.db
+
+# Generated data files (if they shouldn't be versioned)
+staging_superstore.csv
+processed_superstore.csv
+eda_output/
+
+# IDE files
+.vscode/
+.idea/
